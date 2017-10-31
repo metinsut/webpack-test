@@ -1,0 +1,28 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "how to configuration webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack --watch",
+    "dev":"webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtnst/webpack-test.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Metin Süt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtnst/webpack-test/issues"
+  },
+  "homepage": "https://github.com/mtnst/webpack-test#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
