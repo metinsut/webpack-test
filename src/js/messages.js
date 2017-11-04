@@ -1,4 +1,4 @@
 module.exports = {
-    hi:'merhaba webpack...',
-    event:'webpack çok güzel...'
+    hi: 'merhaba webpack...',
+    event: 'webpack çok güzel...'
 };

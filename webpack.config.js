@@ -24,7 +24,7 @@ module.exports = {
       template: path.resolve(paths.SRC, 'index.html'),
     }),
     new ExtractTextPlugin({
-      filename:  (getPath) => {
+      filename: (getPath) => {
         return getPath('css/[name].css').replace('css/js', 'css');
       },
       allChunks: true
