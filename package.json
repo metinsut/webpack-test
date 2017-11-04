@@ -1,10 +1,10 @@
 {
   "name": "webpack-test",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "how to configuration webpack",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && webpack --watch",
+    "build": "rimraf dist && webpack",
     "dev": "webpack-dev-server"
   },
   "repository": {
@@ -25,7 +25,8 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
     "rimraf": "^2.6.2",
+    "style-loader": "^0.19.0",
     "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.3"
+    "webpack-dev-server": "^2.9.4"
   }
 }
