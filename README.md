@@ -1,4 +1,4 @@
-# my-project
+# Webpack Test Project
 
 > A Webpack project
 
